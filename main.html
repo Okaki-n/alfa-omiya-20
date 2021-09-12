@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>封鎖された家庭科室からの脱出 │ Project N</title>
+  <title>夢からの脱出 │ Project N</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -23,7 +23,7 @@
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/main-image.png" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="assets/images/main-image.png" alt="夢からの脱出"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -33,10 +33,10 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：1</span>さぁゲームを始めよう！</h2>
-            <p class="text-center">まずは、この学校の家庭科室の鍵のありかを知らなければ入ることができない。<br>
-              下の画像の謎を解き、鍵のありかをキーワード欄に入力しよう。</p>
-            <p class="text-center">困ったときは、ヒントがある。なるべく見ないようにゲームを進めていこう。</p>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE:1</span>さぁゲームを始めよう！</h2>
+            <p class="text-center">玄関にたどり着き鍵扉を開けようとするが鍵がかかっていてどうやら出られないようだ...<br>
+              玄関には張り紙があり『君は夢の世界に閉じ込められてしまっている。家の中にある謎を解き、真実を理解した時現実への扉が開く」と書いてあった。</p>
+            <p class="text-center">家の中を探索していくと謎を見つけた。</p>
   
             <div class="container">
               <figure class="image__container">
@@ -84,10 +84,10 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__title">STAGE：１  正解！</div>
+              <div class="clear-message__content">玄関の扉が開いた！<br>
+                外に出ると視界が暗くなり<br>
+                目覚めるとベットの上にいた。</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -106,15 +106,15 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">2日目</span>謎を解け！</h2>
+              <p class="text-center">やっと現実かと起き上がると隣にはなんと案内人の姿が<br>
+                「もしかして今が現実だと思った？？？ねぇ一瞬でも思っちゃった？ハハハそんなわけないのに。さっきの張り紙見たでしょ。真実を理解した時現実への扉を開くって」<br>
+                どうやら脱出は失敗してしまったようだ。また謎々を探しに行こう</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
             <div class="container">
-              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>キーワードを入力</h2>
+              <h2 class="section-title"><span class="section-title__stage">2問目</span>答えを入力</h2>
               <!-------------------------------------------------------------
                 class名"row"内のclass名"column"が横並びになります。
                 改行する場合は以下のように追加してください。

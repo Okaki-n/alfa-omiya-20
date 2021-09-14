@@ -33,10 +33,10 @@
         <!-- STAGE1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE:1</span>謎を解き家から脱出しよう！</h2>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE:1</span>謎を解き、家から脱出しよう！</h2>
             <p class="text-center">玄関にたどり着き扉を開けようとするが鍵がかかっていてどうやら出られないようだ...<br>
               玄関には張り紙があり『君は夢の世界に閉じ込められてしまっている。家の中にある謎を解き、真実を理解した時現実への扉が開く」と書いてあった。</p>
-            <p class="text-center">一緒に謎々も張られている。これを解けば夢から出れるのだろうか</p>
+            <p class="text-center">一緒になぞなぞも張られている。これを解けば夢から出れるのだろうか</p>
   
             <div class="container">
               <figure class="image__container">
@@ -84,7 +84,7 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：１  正解！</div>
+              <div class="clear-message__title">カチッと鍵の音がした</div>
               <div class="clear-message__content">玄関の扉が開いた！<br>
                 外に出ると視界が暗くなり<br>
                 目覚めるとベットの上にいた。</div>
@@ -106,15 +106,15 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">2日目</span>謎を解け！</h2>
-              <p class="text-center">やっと現実かと起き上がると隣にはなんと案内人の姿が<br>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">2日目〜4日目</span>謎を解け！</h2>
+              <p class="text-center">やっと現実かとベットから起き上がると隣にはなんと案内人の姿が<br>
                 「もしかして今が現実だと思った？？？ねぇ一瞬でも思っちゃった？ハハハそんなわけないのに。さっきの張り紙見たでしょ。真実を理解した時現実への扉を開くって」<br>
-                どうやら脱出は失敗してしまったようだ。また謎々を探しに行かなくては</p>
+                どうやら脱出は失敗してしまったようだ。もう一度なぞなぞを探し解いてみよう</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
             <div class="container">
-              <h2 class="section-title"><span class="section-title__stage">2問目</span>答えを入力</h2>
+              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>答えを入力</h2>
               <!-------------------------------------------------------------
                 class名"row"内のclass名"column"が横並びになります。
                 改行する場合は以下のように追加してください。
@@ -180,9 +180,9 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">2問目クリア！</div>
-              <div class="clear-message__content">目が覚めるとまたベットに寝ていた<br>
-                隣には案内人も一緒にいる。どうやらまだ脱出はできないようだ,,,</div>
+              <div class="clear-message__title">クリア！</div>
+              <div class="clear-message__content">毎回問題を1問解くとにベットに戻されてしまう。<br>
+                今日で4回目だ。次こそ脱出してやる！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -197,10 +197,10 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">7日目</span>最後の問題</h2>
-            <p class="text-center">ベットから起き上がると案内人から直接謎を出題される<br>
-              「この一週間で実は1日だけ現実だった日があったけどどの日だったと思う？答えは今までの謎を説いた答えを合わせると出てくるよ」<br>
-              と案内人が言った。さぁ最後の問題だ</p>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">5日目〜7日目</span>最後の問題</h2>
+            <p class="text-center">ベットから起き上がると案内人がいた。<br>
+              いつになったら夢から脱出することができるのだろう<br>
+              明らかに何時間か経っているはずなのに窓からは綺麗な青空が見えた</p>
             <figure class="image__container">
               <img src="assets/images/謎5.png" alt="">
             </figure>
